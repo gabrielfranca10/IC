@@ -1,0 +1,152 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .foto-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+  }
+  
+  /* Estilos para o modo escuro */
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header.dark-mode {
+    background-color: #444;
+  }
+  
+  nav ul li a.dark-mode {
+    color: #fff;
+  }
+  
+  .projetos {
+    background-color: #444;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .projeto-card {
+    background-color: #555;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    color: #aaa;
+  }
+  
+  /* Estilos das novas seções */
+  .habilidades, .redes-sociais, .contato {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .contato form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .contato label {
+    font-weight: bold;
+  }
+  
+  .contato input, .contato textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contato button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contato button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
