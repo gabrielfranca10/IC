@@ -11,7 +11,6 @@ Este portfólio foi desenvolvido com HTML, CSS e JavaScript, utilizando Flexbox 
 - HTML5
 - CSS3 (Flexbox, Grid)
 - JavaScript
-- Font Awesome (para os ícones de redes sociais)
 - GitHub Pages (para hospedagem)
 
 ## Como Executar
