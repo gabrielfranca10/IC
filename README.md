@@ -18,6 +18,6 @@ Este portfólio foi desenvolvido com HTML, CSS e JavaScript, utilizando Flexbox 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/gabrielfranca10/seu-repositorio.git
 
 2. Abra o arquivo index.html no seu navegador ou o Live Server do VS CODE.
