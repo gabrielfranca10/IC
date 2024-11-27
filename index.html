@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Gabriel França</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <!-- Botão para alternar o modo escuro -->
+      <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bem-vindo ao meu portfólio!</h1>
+    <p>Prazer, sou Gabriel França</p>
+    <div class="foto-container">
+      <img src="https://mail.google.com/mail/u/1?ui=2&ik=6efe70a3d5&attid=0.1&permmsgid=msg-a:r6881973136941221601&th=192b9b111dd49843&view=fimg&fur=ip&permmsgid=msg-a:r6881973136941221601&sz=s0-l75-ft&attbid=ANGjdJ8JXRmjtihJMMl-Tc_97WvkhOQ2h4cvH-tBfBsvm-BtXwYxsVC5-cl0xPtt5KNrAIsEBzUJa9_ljIY1b_-Qlh3xvlCWsh2veTMnqycRBsfGapbQRAJYPrpSjrw&disp=emb&realattid=192b9b0f22ab1e002ef1&zw" alt="Foto de Gabriel França" class="foto">
+    </div>
+  </section>
+
+  <section class="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projeto-card">
+      <h3>Projeto Aurora</h3>
+      <p>O projeto Aurora  será uma instalação de uma dupla fita de LED instalada na parte inferior da parede da rua primavera, uma delas será com sensor de luminosidade e a outra com sensor de movimento, ambas instaladas por Arduino. Formando o efeito de ondas a depender da velocidade do pedestre.</p>
+    </div>
+    <div class="projeto-card">
+      <h3>Execução do projeto Aurora</h3>
+      <p>Execução do projeto Aurora para a TechDesign e SR2, concluindo alguns erros e colocando o projeto em prática.</p>
+    </div>
+  </section>
+
+  
+
+  <!-- Seção de Contato -->
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Se você quiser entrar em contato comigo, preencha o formulário abaixo:</p>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Gabriel França</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
